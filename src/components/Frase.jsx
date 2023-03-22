@@ -6,7 +6,6 @@ const ContenedorFrase = styled.div`
     border-radius: .5rem;
     background-color: #FFF;
     max-width: 800px;
-    
     @media (min-width: 992px){
         margin-top: 10rem;
     }
@@ -39,6 +38,9 @@ const ContenedorFrase = styled.div`
 
 
 export const Frase = ({ frase }) => {
+
+
+
     return (
         <ContenedorFrase>
             <h1>{frase.quote}</h1>
